@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include includes/head.ejs-%>
+</head>
+
+<body>
+    <div class="topbar clearfix">
+        <%- include includes/topbar.ejs -%>
+      </div>
+
+  <header class="header">
+      <%- include includes/header.ejs-%>
+  </header>
+  <!-- end header -->
+
+  <section class="section1">
+    <div class="container clearfix">
+      <div class="content col-lg-12 col-md-12 col-sm-12 clearfix">
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <h4 class="title">Contact Form</h4>
+          <div id="message"></div>
+          <form class="contact-form php-mail-form" role="form" action="contactform/contactform.php" method="POST">
+
+            <div class="form-group">
+              <input type="name" name="name" class="form-control" id="contact-name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" >
+              <div class="validate"></div>
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" class="form-control" id="contact-email" placeholder="Subject" data-rule="email" data-msg="Please enter a valid email">
+              <div class="validate"></div>
+            </div>
+            <div class="form-group">
+              <input type="text" name="subject" class="form-control" id="contact-subject" placeholder="Books to Order" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
+              <div class="validate"></div>
+            </div>
+
+            <div class="form-group">
+              <textarea class="form-control" name="message" id="contact-message" placeholder="Details of Books you would like to order" rows="5" data-rule="required" data-msg="Please write something for us"></textarea>
+              <div class="validate"></div>
+            </div>
+
+            <div class="loading"><img src="lib/php-mail-form/loading.gif"></div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your message has been sent. Thank you!</div>
+
+            <div class="form-send">
+              <button type="submit" class="btn btn-large btn-primary">Send Message</button>
+            </div>
+
+          </form>
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <h4 class="title">Contact Details</h4>
+          <p>Discovery Press is an independent publisher.</p>
+          <p>Discovery Press has been publishing books on archeology, alternative history and esoterica since the 1970's</p>
+            <ul class="contact_details">
+            <li><i class="fa fa-envelope-o"></i> 7ross22@gmail.com</li>
+            <li><i class="fa fa-facebook"></i>Facebook</li>
+            <li><i class="fa fa-home"></i>22 Mountain Road, Auckland New Zealand 0612</li>
+          </ul>
+          <!-- contact_details -->
+        </div>
+
+        <div class="clearfix"></div>
+        <div class="divider"></div>
+
+        <h4 class="title">Social Media</h4>
+        <div class="col-lg-3 col-md-3 col-sm-3">
+          <div class="servicebox text-center">
+            <div class="service-icon">
+              <div class="dm-icon-effect-1" data-effect="slide-bottom">
+                <a href="https://www.facebook.com/The-Theory-of-Everything-A-beginners-guide-218831355373032" class=""> <i class="dm-icon fa fa-facebook fa-3x"></i> </a>
+              </div>
+              <div class="servicetitle">
+                <h4>Facebook</h4>
+              </div>
+            </div>
+            <!-- service-icon -->
+          </div>
+          <!-- servicebox -->
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3">
+          <div class="servicebox text-center">
+            <div class="service-icon">
+              <div class="dm-icon-effect-1" data-effect="slide-bottom">
+                <a href="#" class=""> <i class="dm-icon fa fa-youtube fa-3x"></i> </a>
+              </div>
+              <div class="servicetitle">
+                <h4>Youtube</h4>
+              </div>
+            </div>
+            <!-- service-icon -->
+          </div>
+          <!-- servicebox -->
+        </div>
+        <!-- large-3 -->
+
+      </div>
+      <!-- end content -->
+    </div>
+    <!-- end container -->
+  </section>
+  <!-- end section -->
+
+  <footer class="footer">
+      <%- include includes/footer.ejs-%>
+
+  </footer>
+  <!-- end footer -->
+  <div class="dmtop">Scroll to Top</div>
+
+  <!-- JavaScript Libraries -->
+  <%- include includes/scripts.ejs -%>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "name": "theory0everything",
+  "version": "1.0.0",
+  "description": "The theory of everything book - Site by Aaron Skudder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node" :"8.11.x",
+    "npm": "5.6.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "aaronskudder"
+  },
+  "author": "Aaron Skudder",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "bower": "^1.8.2",
+    "cors": "^2.8.4",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.12",
+    "morgan": "^1.8.2"
+  }
+}
