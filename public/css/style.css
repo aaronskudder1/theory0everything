@@ -2627,3 +2627,7 @@ a.readmore {
 section {
   overflow: hidden;
 }
+
+.padding-right {
+  padding-right: 20px;
+}
