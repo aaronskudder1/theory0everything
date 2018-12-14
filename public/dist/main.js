@@ -98,7 +98,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _books_toeVol2_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./books/toeVol2.component */ "./src/app/books/toeVol2.component.ts");
 /* harmony import */ var _books_toeVol3_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./books/toeVol3.component */ "./src/app/books/toeVol3.component.ts");
 /* harmony import */ var _overview_overview_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./overview/overview.component */ "./src/app/overview/overview.component.ts");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _contact_contact_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./contact/contact.component */ "./src/app/contact/contact.component.ts");
+/* harmony import */ var _includes_header_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./includes/header.component */ "./src/app/includes/header.component.ts");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -113,12 +115,15 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 
 
+
+
 var routes = [
     { path: "", component: _overview_overview_component__WEBPACK_IMPORTED_MODULE_6__["OverviewComponent"] },
     { path: "overview", component: _overview_overview_component__WEBPACK_IMPORTED_MODULE_6__["OverviewComponent"] },
     { path: "toeVol1", component: _books_toeVol1_component__WEBPACK_IMPORTED_MODULE_3__["TOEVol1Component"] },
     { path: "toeVol2", component: _books_toeVol2_component__WEBPACK_IMPORTED_MODULE_4__["TOEVol2Component"] },
     { path: "toeVol3", component: _books_toeVol3_component__WEBPACK_IMPORTED_MODULE_5__["TOEVol3Component"] },
+    { path: "contact", component: _contact_contact_component__WEBPACK_IMPORTED_MODULE_7__["ContactComponent"] },
 ];
 var AppModule = /** @class */ (function () {
     function AppModule() {
@@ -126,11 +131,13 @@ var AppModule = /** @class */ (function () {
     AppModule = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
             declarations: [
-                _app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"],
+                _app_component__WEBPACK_IMPORTED_MODULE_9__["AppComponent"],
                 _books_toeVol1_component__WEBPACK_IMPORTED_MODULE_3__["TOEVol1Component"],
                 _books_toeVol2_component__WEBPACK_IMPORTED_MODULE_4__["TOEVol2Component"],
                 _books_toeVol3_component__WEBPACK_IMPORTED_MODULE_5__["TOEVol3Component"],
-                _overview_overview_component__WEBPACK_IMPORTED_MODULE_6__["OverviewComponent"]
+                _overview_overview_component__WEBPACK_IMPORTED_MODULE_6__["OverviewComponent"],
+                _contact_contact_component__WEBPACK_IMPORTED_MODULE_7__["ContactComponent"],
+                _includes_header_component__WEBPACK_IMPORTED_MODULE_8__["HeaderComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
@@ -140,7 +147,7 @@ var AppModule = /** @class */ (function () {
                 }),
             ],
             providers: [],
-            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"]]
+            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_9__["AppComponent"]]
         })
     ], AppModule);
     return AppModule;
@@ -157,7 +164,7 @@ var AppModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"col-lg-12 col-md-12 col-sm-12 col-xs-12\" data-effect=\"slide-bottom\">\r\n        \r\n          <img src=\"./images/TOEVol1.jpg\" alt=\"\">\r\n\r\n          <div class=\"servicetitle\">\r\n            <h3>The Theory of Everything Volume 1 2014 edition</h3>\r\n            <hr>\r\n          </div>\r\n          <div class=\"icn-main-container\">\r\n            <span class=\"icn-container\">$35</span>\r\n          </div>\r\n          <p>The 2014 Edition of the T0E (172 pages), starts with the basics of the wave principle and builds to a comprehensive understanding of the twelve arithmetic forces (Zodiac signs), with illustrations and photographs of models.</p>\r\n          <p> It discusses the single digit numbers 0-9, then goes on to describe the pattern behind the prime numbers from 11-131 in terms of the four states of mental and elemental forces. This is finally followed by how the creative principle of the universe (or Logos), relates to our everyday lives and society in general. </p>\r\n\r\n</div>\r\n\r\n"
+module.exports = "<div class=\"col-lg-12 col-md-12 col-sm-12 col-xs-12\" data-effect=\"slide-bottom\">\r\n  <div class=\"custom-box\">\r\n            <img src=\"./images/TOEVol3.jpg\" alt=\"\">\r\n\r\n      <div class=\"servicetitle\">\r\n        <h4>The Theory of Everything Volume 1 2014 edition</h4>\r\n        <hr>\r\n      </div>\r\n      <div>\r\n        <p>The 2014 Edition of the T0E (172 pages), starts with the basics of the wave principle and builds to a comprehensive understanding </p>\r\n        <p>of the twelve arithmetic forces (Zodiac signs), with illustrations and photographs of models.</p>\r\n        <p>It discusses the single digit numbers 0-9, then goes on to describe the pattern behind</p>\r\n        <p>the prime numbers from 11-131 in terms of the four states of mental and elemental forces.</p>\r\n        <p>This is finally followed by how the creative principle of the universe (or Logos), relates to our everyday lives and society in general.</p>\r\n      </div>\r\n      <div class=\"icn-main-container\">\r\n        <span class=\"icn-container\">$35</span>\r\n      </div>\r\n      <p>A Beginners Guide</p>\r\n      <ul class=\"pricing\">\r\n              <li>Colour Illustrations</li>\r\n              <li>Signed by the Author</li>\r\n              <li>Limited Edition</li>\r\n      </ul>\r\n      <div>\r\n        <a class=\"btn btn-primary\" href=\"./images/pdf/TOEVol1.pdf\">Download PDF</a>&nbsp;\r\n        <a class=\"btn btn-primary\" href=\"contact\">Order Hardcopy</a>\r\n      </div>\r\n  </div>\r\n</div>\r\n"
 
 /***/ }),
 
@@ -251,7 +258,7 @@ var TOEVol2Component = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"col-lg-12 col-md-12 col-sm-12 col-xs-12\" data-effect=\"slide-bottom\">\r\n      <div class=\"custom-box\">\r\n                <img src=\"./images/TOEVol3.jpg\" alt=\"\">\r\n\r\n          <div class=\"servicetitle\">\r\n            <h4>The Theory of Everything Volume 3 2020 Edition</h4>\r\n            <hr>\r\n          </div>\r\n          <div class=\"icn-main-container\">\r\n            <span class=\"icn-container\">$55</span>\r\n          </div>\r\n          <p>A Beginners Guide</p>\r\n          <ul class=\"pricing\">\r\n                  <li>Colour Illustrations</li>\r\n                  <li>Signed by the Author</li>\r\n                  <li>Limited Edition</li>\r\n          </ul>\r\n            <a class=\"btn btn-primary\" href=\"./images/pdf/TOEVol3.pdf\">Download PDF</a>&nbsp;\r\n            <a class=\"btn btn-primary\" href=\"contact\">Order Hardcopy</a>\r\n          <div>\r\n            <p>The 2020 Edition is the complete Theory of Everything.  to be released in 2020.</p>\r\n            <p>Still in the pipeline and to be released in 2020.  A beginners guide for all New Zealander's</p>\r\n            <p>It describes the simple, beautiful and elegant theory that is going to change the world</p>\r\n          </div>\r\n      </div>\r\n        <!-- end custombox -->\r\n      </div>\r\n      <!-- end col-4 -->\r\n"
+module.exports = "<div class=\"col-lg-12 col-md-12 col-sm-12 col-xs-12\" data-effect=\"slide-bottom\">\r\n      <div class=\"custom-box\">\r\n                <img src=\"./images/TOEVol3.jpg\" alt=\"\">\r\n\r\n          <div class=\"servicetitle\">\r\n            <h4>The Theory of Everything Volume 3 2020 Edition</h4>\r\n            <hr>\r\n          </div>\r\n          <div>\r\n            <p>The 2020 Edition is the complete Theory of Everything.  to be released in 2020.</p>\r\n            <p>Still in the pipeline and to be released in 2020.  A beginners guide for all New Zealander's</p>\r\n            <p>It describes the simple, beautiful and elegant theory that is going to change the world</p>\r\n          </div>\r\n          <div class=\"icn-main-container\">\r\n            <span class=\"icn-container\">$55</span>\r\n          </div>\r\n          <p>A Beginners Guide</p>\r\n          <ul class=\"pricing\">\r\n                  <li>Colour Illustrations</li>\r\n                  <li>Signed by the Author</li>\r\n                  <li>Limited Edition</li>\r\n          </ul>\r\n          <div>\r\n            <a class=\"btn btn-primary\" href=\"./images/pdf/TOEVol3.pdf\">Download PDF</a>&nbsp;\r\n            <a class=\"btn btn-primary\" href=\"contact\">Order Hardcopy</a>\r\n          </div>\r\n      </div>\r\n        <!-- end custombox -->\r\n      </div>\r\n      <!-- end col-4 -->\r\n"
 
 /***/ }),
 
@@ -285,6 +292,106 @@ var TOEVol3Component = /** @class */ (function () {
         })
     ], TOEVol3Component);
     return TOEVol3Component;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/contact/contact.component.html":
+/*!************************************************!*\
+  !*** ./src/app/contact/contact.component.html ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<!-- <!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <%- include includes/head.ejs-%>\r\n</head>\r\n\r\n<body> -->\r\n    <!-- <div class=\"topbar clearfix\">\r\n        <%- include includes/topbar.ejs -%>\r\n      </div> -->\r\n\r\n  <header></header>\r\n\r\n  <section class=\"section1\">\r\n    <div class=\"container clearfix\">\r\n      <div class=\"content col-lg-12 col-md-12 col-sm-12 clearfix\">\r\n        <div class=\"col-lg-6 col-md-6 col-sm-6\">\r\n          <h4 class=\"title\">Contact Form</h4>\r\n          <div id=\"message\"></div>\r\n          <form class=\"contact-form php-mail-form\" role=\"form\" action=\"contactform/contactform.php\" method=\"POST\">\r\n\r\n            <div class=\"form-group\">\r\n              <input type=\"name\" name=\"name\" class=\"form-control\" id=\"contact-name\" placeholder=\"Your Name\" data-rule=\"minlen:4\" data-msg=\"Please enter at least 4 chars\" >\r\n              <div class=\"validate\"></div>\r\n            </div>\r\n            <div class=\"form-group\">\r\n              <input type=\"email\" name=\"email\" class=\"form-control\" id=\"contact-email\" placeholder=\"Subject\" data-rule=\"email\" data-msg=\"Please enter a valid email\">\r\n              <div class=\"validate\"></div>\r\n            </div>\r\n            <div class=\"form-group\">\r\n              <input type=\"text\" name=\"subject\" class=\"form-control\" id=\"contact-subject\" placeholder=\"Books to Order\" data-rule=\"minlen:4\" data-msg=\"Please enter at least 8 chars of subject\">\r\n              <div class=\"validate\"></div>\r\n            </div>\r\n\r\n            <div class=\"form-group\">\r\n              <textarea class=\"form-control\" name=\"message\" id=\"contact-message\" placeholder=\"Details of Books you would like to order\" rows=\"5\" data-rule=\"required\" data-msg=\"Please write something for us\"></textarea>\r\n              <div class=\"validate\"></div>\r\n            </div>\r\n\r\n            <div class=\"loading\"><img src=\"lib/php-mail-form/loading.gif\"></div>\r\n            <div class=\"error-message\"></div>\r\n            <div class=\"sent-message\">Your message has been sent. Thank you!</div>\r\n\r\n            <div class=\"form-send\">\r\n              <button type=\"submit\" class=\"btn btn-large btn-primary\">Send Message</button>\r\n            </div>\r\n\r\n          </form>\r\n        </div>\r\n\r\n        <div class=\"col-lg-6 col-md-6 col-sm-6\">\r\n          <h4 class=\"title\">Contact Details</h4>\r\n          <p>Discovery Press is an independent publisher.</p>\r\n          <p>Discovery Press has been publishing books on archeology, alternative history and esoterica since the 1970's</p>\r\n            <ul class=\"contact_details\">\r\n            <li><i class=\"fa fa-envelope-o\"></i> &nbsp;&nbsp;7ross22@gmail.com</li>\r\n            <li><i class=\"fa fa-facebook\"></i>&nbsp;&nbsp;Facebook</li>\r\n            <li><i class=\"fa fa-home\"></i>&nbsp;&nbsp;22 Mountain Road, Auckland New Zealand 0612</li>\r\n          </ul>\r\n          <!-- contact_details -->\r\n        </div>\r\n\r\n        <div class=\"clearfix\"></div>\r\n        <div class=\"divider\"></div>\r\n\r\n        <h4 class=\"title\">Social Media</h4>\r\n        <div class=\"col-lg-3 col-md-3 col-sm-3\">\r\n          <div class=\"servicebox text-center\">\r\n            <div class=\"service-icon\">\r\n              <div class=\"dm-icon-effect-1\" data-effect=\"slide-bottom\">\r\n                <a href=\"https://www.facebook.com/The-Theory-of-Everything-A-beginners-guide-218831355373032\" class=\"\"> <i class=\"dm-icon fa fa-facebook fa-3x\"></i> </a>\r\n              </div>\r\n              <div class=\"servicetitle\">\r\n                <h4>Facebook</h4>\r\n              </div>\r\n            </div>\r\n            <!-- service-icon -->\r\n          </div>\r\n          <!-- servicebox -->\r\n        </div>\r\n        <div class=\"col-lg-3 col-md-3 col-sm-3\">\r\n          <div class=\"servicebox text-center\">\r\n            <div class=\"service-icon\">\r\n              <div class=\"dm-icon-effect-1\" data-effect=\"slide-bottom\">\r\n                <a href=\"#\" class=\"\"> <i class=\"dm-icon fa fa-youtube fa-3x\"></i> </a>\r\n              </div>\r\n              <div class=\"servicetitle\">\r\n                <h4>Youtube</h4>\r\n              </div>\r\n            </div>\r\n            <!-- service-icon -->\r\n          </div>\r\n          <!-- servicebox -->\r\n        </div>\r\n        <!-- large-3 -->\r\n\r\n      </div>\r\n      <!-- end content -->\r\n    </div>\r\n    <!-- end container -->\r\n  </section>\r\n\r\n  <!-- <footer class=\"footer\">\r\n      <%- include includes/footer.ejs-%>\r\n\r\n  </footer>\r\n  <!-- end footer -->\r\n  <div class=\"dmtop\">Scroll to Top</div>\r\n\r\n  <!-- JavaScript Libraries -->\r\n  <%- include includes/scripts.ejs -%> -->\r\n\r\n<!-- </body>\r\n</html> -->\r\n"
+
+/***/ }),
+
+/***/ "./src/app/contact/contact.component.ts":
+/*!**********************************************!*\
+  !*** ./src/app/contact/contact.component.ts ***!
+  \**********************************************/
+/*! exports provided: ContactComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ContactComponent", function() { return ContactComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var ContactComponent = /** @class */ (function () {
+    function ContactComponent() {
+    }
+    ContactComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: "contact",
+            template: __webpack_require__(/*! ./contact.component.html */ "./src/app/contact/contact.component.html"),
+            styleUrls: []
+        }),
+        __metadata("design:paramtypes", [])
+    ], ContactComponent);
+    return ContactComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/includes/header.component.html":
+/*!************************************************!*\
+  !*** ./src/app/includes/header.component.html ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"container\">\r\n  <div class=\"site-header clearfix\">\r\n    <div class=\"col-lg-3 col-md-3 col-sm-12 title-area\">\r\n      <div class=\"site-title\" id=\"title\">\r\n        <a href=\"index\" title=\"\">\r\n          <h4>Discovery<span>Press</span></h4>\r\n        </a>\r\n      </div>\r\n    </div>\r\n    <div class=\"col-lg-9 col-md-12 col-sm-12\">\r\n      <div id=\"nav\" class=\"right\">\r\n        <div class=\"container clearfix\">\r\n          <ul id=\"jetmenu\" class=\"jetmenu blue\">\r\n            <li class=\"active\"><a href=\"index\">Home</a></li>\r\n            <li><a href=\"about\">About</a></li>\r\n            <li><a href=\"otherBooks\">Other Books</a></li>\r\n            <li><a href=\"contact\">Contact</a></li>\r\n          </ul>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n"
+
+/***/ }),
+
+/***/ "./src/app/includes/header.component.ts":
+/*!**********************************************!*\
+  !*** ./src/app/includes/header.component.ts ***!
+  \**********************************************/
+/*! exports provided: HeaderComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HeaderComponent", function() { return HeaderComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var HeaderComponent = /** @class */ (function () {
+    function HeaderComponent() {
+    }
+    HeaderComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: "header",
+            template: __webpack_require__(/*! ./header.component.html */ "./src/app/includes/header.component.html"),
+            styleUrls: []
+        }),
+        __metadata("design:paramtypes", [])
+    ], HeaderComponent);
+    return HeaderComponent;
 }());
 
 

@@ -321,12 +321,6 @@ input, button, select, textarea {
   border-radius: 50%;
 }
 
-.blog-title h2 {}
-
-.blog-title .post-meta {}
-
-.post-meta a, .post-meta span {}
-
 .post-meta .sep {
   color: #777777;
   padding: 0 10px 0 10px;
